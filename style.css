@@ -1,0 +1,356 @@
+body{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*contianer-fluid*/
+
+.banner-1{
+	padding-top: 30px;
+
+}
+
+.bannerimg{
+	padding: 20px;
+	position: relative;
+
+}
+
+
+#bannertext{
+	padding: 20px;
+	margin-top: 40px;
+	padding-left: 60px;
+	position: relative;
+
+}
+
+#h3-1{
+	text-transform: capitalize;
+	font-weight: bolder;
+	font-size: 23px;
+	position: relative;
+
+}
+#h4-1{
+	text-transform: capitalize;
+	margin-top: 40px;
+	font-weight: bolder;
+}
+#h4-2{
+	text-transform: uppercase;
+	margin-top: 40px;
+	font-weight: bolder;
+	margin-bottom: 40px;
+}
+
+#btn-1{
+   background-color: #00bec9;
+   border: 2px solid #00bec9;
+   color: white;
+   font-size: 20px;
+   padding-right: 20px;
+   text-transform: capitalize;
+   position: relative;
+
+}
+
+@media only screen and (max-width: 768px){
+
+	#img-fluid{
+		width: 500px;
+		height: 500px;
+		padding-top: 50px;
+	}
+	#bannertext{
+		
+		padding-bottom: 60px;
+	}
+	#h3-1{
+		
+		font-size: 30px;
+	}
+	#h4-1{
+		padding-bottom: 30px;
+		font-size: 25px;
+	}
+	#h4-2{
+      font-size: 25px;
+      padding-bottom: 20px;
+	}
+	#btn-1{
+     align-content: center;
+     float: left;
+     margin-right: 30px;
+     padding-right: 40px;
+	}
+	
+}	
+ 
+ @media only screen and (max-width: 375px){
+ 	#akshay{ 				
+ 		padding-left: 60px;
+ 		margin-bottom: 30px;
+ 		height: 200px;
+ 		width: 200px;
+ 	}
+ 	
+ #dropdownMenuButton1{
+    margin-top: 10px;
+    align-content: center;
+    padding-right: 90px;
+    float: left;
+    margin-right: 120px;
+
+ }
+}
+
+#main-1{
+	background-color: #f5f2f2;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	padding-right: 20px;	
+}
+	
+#ad-1{
+	padding-left: 30px;
+	border: 1px solid black;
+	border-radius: 13px;
+	box-shadow: 2px 2px 2px 2px #aba49f;
+	text-align: center;
+	margin-bottom: 25px;
+	position: relative;
+}
+#h3-2{
+	font-family: sans-serif;
+	text-transform: capitalize;
+}
+.dropdown{
+  padding: 0px;
+  margin-left:  60px;
+  position: relative;
+
+}
+#dropdownMenuButton1{
+	background-color: #e37412;
+	color: white;
+	font-size: 17px;
+	font-family: sans-serif;
+	border-radius: 8px;
+	font-weight: lighter;
+	border: none;
+	text-transform:none;
+}
+@media only screen and (max-width: 768px){
+    #akshay{
+    	height: 160px;
+    	padding-right: 60px;
+    	width: 500px;
+    }
+
+	#main-1{
+      padding: 20px;
+     
+	}
+   #ad-1{   	 
+   	  justify-content: center;
+   	  align-content: center;
+   }
+   .dropdown{
+   	padding-right: 70px;
+   	margin-right: 40px;
+
+   }
+   #dropdownMenuButton1{   	
+   	position: relative;
+   	margin-left: -50px;
+   }
+}
+}
+
+/*row3*/
+
+
+#tag{
+	font-family: sans-serif;
+	padding: 30px;
+	text-transform: capitalize;
+	font-weight: bolder;
+}
+.numbar{
+	display:flex;
+	margin: 10px;
+	padding: 20px;
+    text-decoration: none;
+    margin-bottom: 10px;
+
+
+}
+
+.carstyle a{
+	text-decoration: none;
+	margin:20px;
+	text-transform: capitalize;
+	color: black;
+	font-weight: lighter;
+	
+}
+
+/*row-4*/
+
+#cars-2{
+	background-color: #f2f0e6;
+	border: 6px lighter grey;
+	border-radius: 1px 1px 1px 1px grey;
+	position: relative;
+}
+
+#cars-2 a{
+	text-decoration: none;
+	margin-top: 10px;
+	color: black;
+	text-transform: capitalize;
+}
+
+@media only screen and (max-width: 786px){
+	#cars-2{
+		margin: 20px;
+		margin-bottom: 30px;
+		margin-top: 20px;
+	}
+
+	#cars-2 img{
+		width: 100px;
+		height: 120px;
+	}
+
+	#cars-2 img a p{
+		margin: 20px;
+		padding: 30px;
+	}
+
+	#cars-2 img a p .{
+		padding-top: 40px;
+		margin-top: 30px;
+		font-size: 10px;
+	}
+
+	.btncars{
+		padding: 20px;		
+	}
+	
+}
+
+
+@media only screen and (max-width: 414px){
+	#akshay{
+		width: 500px;
+		padding-bottom: 40px;
+		padding-left: 60px;
+			
+	}
+	#dropdownMenuButton1{
+		padding-right:10px;
+		margin-bottom: 80px;
+		margin-top: 20px;
+		position: relative;
+		align-content: center;		
+	}
+    .dropdown{
+    	
+    	margin-right: 30px;
+    	padding-left: 60px;
+    }
+    .numbar a{
+    	font-size: 20px;
+    	margin-left: 10px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 375px){
+	#cars-2{
+		margin: 20px;
+		padding: 20px;
+		margin-bottom: 50px;
+	}
+	.numbar a{
+		font-size: 17px;
+		padding-right: 20px;
+		margin-right:  -18px;
+		margin-top: 40px;
+	}
+	#cars-2 img{
+		width: 170px;
+		height: 150px;
+	}
+	#cars-2 img a{
+		margin: 20px;
+		padding: 30px;
+	}
+	#tag{
+		margin-top: 50px;
+	}
+	.dropdown{
+		padding-left: 40px;
+		position: relative;
+	}
+	#dropdownMenuButton1{
+		padding-right: 20px;
+		margin-left: -55px;
+	}
+    #akshay{
+    	width: 500px;
+    	position: relative;
+    	height: 200px;
+    	margin-bottom: 5px;
+    }
+}
+
+
+
+/*footer*/
+ 
+.footer-1{
+	font-family: sans-serif;
+	padding: 30px;
+	margin-top: -20px;
+	margin-bottom: -10px;
+
+}
+
+.footer-2{
+	text-decoration: none;
+	color: black;
+	margin-bottom: 20px;
+	list-style-type: none;	
+}
+
+.footer-3{
+	display: inline-block; 
+    margin: 10px;
+}
+
+@media only screen and (max-width: 414px){
+	.footer-1{
+		margin-top: 20px;
+		padding: 20px;	
+	}
+	.footer-3{
+		margin-right: 3px;
+
+	}
+}
+
+@media only screen and (max-width: 375px){
+	.footer-1{
+		margin-top: 10px;
+	}
+}
+
+
+
+
